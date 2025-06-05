@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-export default function WistJeDatApp() {
+export default function wjdapp() {
   const [weetje, setWeetje] = useState<string | null>(null);
   const [loading, setLoading] = useState(false);
 
