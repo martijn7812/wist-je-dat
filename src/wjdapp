@@ -14,7 +14,7 @@ function formatWeetje(text: string) {
   return text.charAt(0).toUpperCase() + text.slice(1);
 }
 
-export default function WistJeDatApp() {
+export default function wjdapp() {
   const [selected, setSelected] = useState<Weetje | null>(null);
   const [history, setHistory] = useState<Weetje[]>([]);
   const [loading, setLoading] = useState(false);
