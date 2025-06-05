@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 
 export default function WistJeDatApp() {
@@ -26,13 +27,9 @@ export default function WistJeDatApp() {
 
       <Card className="w-full max-w-md">
         <CardContent className="p-4 flex flex-col gap-4 items-center">
-<button
-  onClick={fetchWeetje}
-  disabled={loading}
-  className="px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-xl transition"
->
-  {loading ? "Even zoeken..." : "Geef me een weetje!"}
-</button>
+          <Button onClick={fetchWeetje} disabled={loading}>
+            {loading ? "Even zoeken..." : "Geef me een weetje!"}
+          </Button>
 
           {selected && (
             <div className="text-lg font-medium text-center p-4 bg-yellow-200 rounded-xl shadow">
@@ -44,3 +41,4 @@ export default function WistJeDatApp() {
     </div>
   );
 }
+
