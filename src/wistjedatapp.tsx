@@ -1,4 +1,3 @@
-export default function WistJeDatApp() {
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
@@ -41,5 +40,4 @@ export default function WistJeDatApp() {
       </Card>
     </div>
   );
-}
 }
