@@ -1,9 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import wjdapp from "./wjdapp";
+import WistJeDatApp from "./wjdapp";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
-    <wjdapp />
+    <WistJeDatApp />
   </React.StrictMode>
 );
