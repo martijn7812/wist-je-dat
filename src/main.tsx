@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import WistJeDatApp from "./WistJeDatApp";
+import wistjedatapp from "./WistJeDatApp";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
